@@ -33,14 +33,17 @@ a {
 	background-repeat: no-repeat;
 }
 
-.border-header {}
+.border-header {
 
-.nav-bar {}
+}
+
+.nav-bar {
+
+}
 
 .nav-bar-list {
 	gap: 32px;
 }
-
 
 .nav-bar-item {
 	font-family: Inter;
@@ -52,8 +55,14 @@ a {
 	color: #E4D8CC;
 }
 
+.nav-bar-item:hover{
+	color: #333;
+	transition: all 0.7s ease;
+}
+
 .nav-bar-list-2 {
 	gap: 38px;
+	margin-left: 253px;
 }
 
 .nav-bar-item-2 {
@@ -64,6 +73,11 @@ a {
 	letter-spacing: 1.5px;
 	text-align: left;
 	color: #E4D8CC;
+}
+
+.nav-bar-item-2:hover{
+	color: #333;
+	transition: all 0.7s ease;
 }
 
 /* Main */
@@ -103,6 +117,17 @@ a {
 	margin-top: 42px;
 	margin-right: 12px;
 	margin-bottom: 116px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #5e23cd;
+    transform: scale(1.1);
+}
+
+.hero-button:active {
+    background-color: #3a0478;
+    transform: scale(0.9);
 }
 
 .hero-button2 {
@@ -117,6 +142,17 @@ a {
 	line-height: 24px;
 	text-align: center;
 	color: #FFFFFF;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero-button2:hover {
+    background-color: rgba(180, 168, 156, 0.5);
+    transform: scale(1.1);
+}
+
+.hero-button2:active {
+    background-color: rgba(102, 91, 80, 0.5);
+    transform: scale(0.9);
 }
 
 /* Section 2 */
@@ -160,6 +196,7 @@ a {
 .left-image {
     margin-right: 20px;
 	padding-top: 144px;
+	padding-bottom: 101px;
 }
 
 .circle{
@@ -193,16 +230,27 @@ a {
 }
 
 .section3-expand {
+    position: relative;
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 2px;
     color: rgba(16, 16, 16, 1);
-	margin-top: -30px;
-	text-decoration: underline;
-	
+    margin-top: -30px;
+    text-transform: uppercase;
 }
+
+.section3-expand::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 85px;
+    height: 2px;
+    background-color: black;
+}
+
 
 .expanded-content {
     font-family: Inter;
@@ -210,4 +258,11 @@ a {
     font-weight: 400;
     line-height: 22px;
     color: rgba(16, 16, 16, 1);
+	margin-top: 38px;
+}
+
+/* Section 4 */
+
+.section-4{
+	background: rgba(231, 223, 216, 1);
 }
