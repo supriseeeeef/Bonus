@@ -152,41 +152,62 @@ a {
 }
 
 /* Section 3 */
+.section-3 {
+    background: rgba(231, 223, 216, 1);
+    display: flex;
+}
 
-.section-3{
-	background: rgba(231, 223, 216, 1);
+.left-image {
+    margin-right: 20px;
+	padding-top: 144px;
+}
+
+.circle{
+	padding-top: 215px;
+}
+
+.insideimg{
+	font-family: Inter;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
 }
 
 .section3-title {
     font-family: Inter;
-	font-size: 19px;
-	font-weight: 400;
-	line-height: 36px;
-	color: rgba(16, 16, 16, 1);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgba(16, 16, 16, 1);
 }
 
 .section3-paragraph {
-	font-family: Inter;
-	font-size: 35px;
-	font-weight: 400;
-	line-height: 46px;
-	letter-spacing: 1px;
-	color: rgba(16, 16, 16, 1);
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: rgba(16, 16, 16, 1);
+	margin-top: 18px;
 }
 
 .section3-expand {
     font-family: Inter;
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 30px;
-	letter-spacing: 2px;
-	color: rgba(16, 16, 16, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: rgba(16, 16, 16, 1);
+	margin-top: -30px;
+	text-decoration: underline;
+	
 }
 
 .expanded-content {
     font-family: Inter;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 22px;
-	color: rgba(16, 16, 16, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(16, 16, 16, 1);
 }
