@@ -33,13 +33,9 @@ a {
 	background-repeat: no-repeat;
 }
 
-.border-header {
+.border-header {}
 
-}
-
-.nav-bar {
-
-}
+.nav-bar {}
 
 .nav-bar-list {
 	gap: 32px;
@@ -55,7 +51,7 @@ a {
 	color: #E4D8CC;
 }
 
-.nav-bar-item:hover{
+.nav-bar-item:hover {
 	color: #333;
 	transition: all 0.7s ease;
 }
@@ -75,7 +71,7 @@ a {
 	color: #E4D8CC;
 }
 
-.nav-bar-item-2:hover{
+.nav-bar-item-2:hover {
 	color: #333;
 	transition: all 0.7s ease;
 }
@@ -117,17 +113,17 @@ a {
 	margin-top: 42px;
 	margin-right: 12px;
 	margin-bottom: 116px;
-    transition: background-color 0.3s, transform 0.3s;
+	transition: background-color 0.3s, transform 0.3s;
 }
 
 .hero-button:hover {
-    background-color: #5e23cd;
-    transform: scale(1.1);
+	background-color: #5e23cd;
+	transform: scale(1.1);
 }
 
 .hero-button:active {
-    background-color: #3a0478;
-    transform: scale(0.9);
+	background-color: #3a0478;
+	transform: scale(0.9);
 }
 
 .hero-button2 {
@@ -142,21 +138,21 @@ a {
 	line-height: 24px;
 	text-align: center;
 	color: #FFFFFF;
-    transition: background-color 0.3s, transform 0.3s;
+	transition: background-color 0.3s, transform 0.3s;
 }
 
 .hero-button2:hover {
-    background-color: rgba(180, 168, 156, 0.5);
-    transform: scale(1.1);
+	background-color: rgba(180, 168, 156, 0.5);
+	transform: scale(1.1);
 }
 
 .hero-button2:active {
-    background-color: rgba(102, 91, 80, 0.5);
-    transform: scale(0.9);
+	background-color: rgba(102, 91, 80, 0.5);
+	transform: scale(0.9);
 }
 
 /* Section 2 */
-.background1{
+.background1 {
 	background: rgba(231, 223, 216, 1);
 }
 
@@ -188,21 +184,21 @@ a {
 
 /* Section 3 */
 
-.right-text{
+.right-text {
 	margin-left: 100px;
 }
 
 .left-image {
-    margin-right: 20px;
+	margin-right: 20px;
 	padding-top: 144px;
 	padding-bottom: 116px;
 }
 
-.circle{
+.circle {
 	padding-top: 215px;
 }
 
-.insideimg{
+.insideimg {
 	font-family: Inter;
 	font-size: 38px;
 	font-weight: 400;
@@ -212,83 +208,83 @@ a {
 }
 
 .section3-title {
-    font-family: Inter;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 36px;
-    color: rgba(16, 16, 16, 1);
+	font-family: Inter;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 36px;
+	color: rgba(16, 16, 16, 1);
 	margin: -30px 0 0 90px;
 }
 
 .section3-paragraph {
-    font-family: Inter;
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 46px;
-    letter-spacing: 1px;
-    color: rgba(16, 16, 16, 1);
+	font-family: Inter;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 46px;
+	letter-spacing: 1px;
+	color: rgba(16, 16, 16, 1);
 	margin-top: 38px;
 }
 
 .section3-expand {
-    position: relative;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 2px;
-    color: rgba(16, 16, 16, 1);
-    margin-top: -30px;
-    text-transform: uppercase;
+	position: relative;
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 2px;
+	color: rgba(16, 16, 16, 1);
+	margin-top: -30px;
+	text-transform: uppercase;
 }
 
 .section3-expand::after {
-    content: "";
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 85px;
-    height: 2px;
-    background-color: black;
+	content: "";
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 85px;
+	height: 2px;
+	background-color: black;
 }
 
 
 .expanded-content {
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    color: rgba(16, 16, 16, 1);
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	color: rgba(16, 16, 16, 1);
 	margin-top: 38px;
 }
 
 /* Section 4 */
 .section-4 {
-    justify-content: flex-end;
+	justify-content: flex-end;
 }
 
 .left-text {
-    margin-right: 100px;
+	margin-right: 100px;
 }
 
 .right-image {
-    margin-left: 20px;
-    padding-top: 144px;
-    padding-bottom: 116px;
+	margin-left: 20px;
+	padding-top: 144px;
+	padding-bottom: 116px;
 }
 
 /* Section 5 */
 /* Section 6 */
 
-.section-6-list{
+.section-6-list {
 	gap: 128px;
 }
 
-.quotes{
+.quotes {
 	margin-top: 116px;
 }
 
-.section-6-list-quotes{
+.section-6-list-quotes {
 	font-family: Inter;
 	font-size: 24px;
 	font-weight: 400;
@@ -297,11 +293,11 @@ a {
 	color: rgba(228, 216, 204, 1);
 }
 
-.section-6-pfp{
+.section-6-pfp {
 	margin: 61px 0 0 -189px;
 }
 
-.section-6-text-after-pfp{
+.section-6-text-after-pfp {
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 400;
@@ -312,22 +308,22 @@ a {
 	line-height: 5px;
 }
 
-.forbes{
+.forbes {
 	margin-top: 68px;
 	padding-bottom: 140px;
 }
 
 /* Section 7 */
 
-.background2{
+.background2 {
 	background: rgba(16, 16, 16, 1);
 }
 
-.section7-list-item{
+.section7-list-item {
 	margin-bottom: 52px;
 }
 
-.section-7-title{
+.section-7-title {
 	margin-top: 118px;
 	font-family: Inter;
 	font-size: 36px;
@@ -337,7 +333,7 @@ a {
 	color: rgba(228, 216, 204, 1);
 }
 
-.section-7-link{
+.section-7-link {
 	font-family: Inter;
 	font-size: 20px;
 	font-weight: 400;
@@ -346,20 +342,108 @@ a {
 }
 
 .right-image1 {
-    margin-left: 90px;
-    padding-top: 100px;
-    padding-bottom: 71px;
+	margin-left: 90px;
+	padding-top: 100px;
+	padding-bottom: 71px;
 }
 
 /* Section-8 */
 
-.background3{
+.background3 {
 	background-image: url(photo/background1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.bonus-mission-title{
+.bonus-mission-title {
+	font-family: Inter;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 16px;
+	color: rgba(195, 186, 177, 1);
+	padding-top: 139px;
+	margin: 0;
+}
 
+.mission-description {
+	font-family: Inter;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 54px;
+	color: rgba(231, 223, 216, 1);
+	margin-top: 19px;
+}
+
+.more-info {
+	font-family: Inter;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: rgba(228, 216, 204, 1);
+	margin-top: -20px;
+	padding-bottom: 98px;
+	margin: 0;
+}
+
+.more-info::after {
+	content: '';
+	display: block;
+	width: 271px;
+	height: 1px;
+	background: rgba(228, 216, 204, 1);
+	margin-top: 5px;
+}
+
+/* Footer */
+
+.footer {
+	background: rgba(16, 16, 16, 1);
+}
+
+.footer-list {
+	gap: 42px;
+	padding-top: 78px;
+	margin: 1px;
+}
+
+.footer-list-item {}
+
+.footer-list-item-h2 {
+	font-family: Inter;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 24px;
+	color: rgba(228, 216, 204, 1);
+}
+
+.footer-button1 {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(255, 250, 245, 1);
+	width: 215px;
+	height: 42px;
+	background: rgba(120, 55, 243, 1);
+	border: 1px solid rgba(120, 55, 243, 1);
+	border-radius: 100px;
+}
+
+
+.footer-button2 {
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(255, 250, 245, 1);
+	width: 251px;
+	height: 42px;
+	border-radius: 100px;
+	border: 1px solid rgba(228, 216, 204, 1);
+	background-color: inherit;
+	margin-bottom: 86px;
 }
