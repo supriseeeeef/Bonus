@@ -280,7 +280,7 @@ a {
 /* Section 5 */
 /* Section 6 */
 
-.section-5-list{
+.section-6-list{
 	gap: 128px;
 }
 
@@ -288,7 +288,7 @@ a {
 	margin-top: 116px;
 }
 
-.section-5-list-quotes{
+.section-6-list-quotes{
 	font-family: Inter;
 	font-size: 24px;
 	font-weight: 400;
@@ -297,11 +297,11 @@ a {
 	color: rgba(228, 216, 204, 1);
 }
 
-.section-5-pfp{
+.section-6-pfp{
 	margin: 61px 0 0 -189px;
 }
 
-.section-5-text-after-pfp{
+.section-6-text-after-pfp{
 	font-family: Inter;
 	font-size: 14px;
 	font-weight: 400;
@@ -315,4 +315,51 @@ a {
 .forbes{
 	margin-top: 68px;
 	padding-bottom: 140px;
+}
+
+/* Section 7 */
+
+.background2{
+	background: rgba(16, 16, 16, 1);
+}
+
+.section7-list-item{
+	margin-bottom: 52px;
+}
+
+.section-7-title{
+	margin-top: 118px;
+	font-family: Inter;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 46px;
+	letter-spacing: 1px;
+	color: rgba(228, 216, 204, 1);
+}
+
+.section-7-link{
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgba(185, 159, 234, 1);
+}
+
+.right-image1 {
+    margin-left: 90px;
+    padding-top: 100px;
+    padding-bottom: 71px;
+}
+
+/* Section-8 */
+
+.background3{
+	background-image: url(photo/background1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bonus-mission-title{
+
 }
