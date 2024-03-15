@@ -397,7 +397,6 @@ a {
 }
 
 /* Footer */
-
 .footer {
 	background: rgba(16, 16, 16, 1);
 }
@@ -405,10 +404,13 @@ a {
 .footer-list {
 	gap: 42px;
 	padding-top: 78px;
+	padding-left: 0px;
 	margin: 1px;
 }
 
-.footer-list-item {}
+.footer-list-item {
+	margin-bottom: 135px;
+}
 
 .footer-list-item-h2 {
 	font-family: Inter;
@@ -430,8 +432,18 @@ a {
 	background: rgba(120, 55, 243, 1);
 	border: 1px solid rgba(120, 55, 243, 1);
 	border-radius: 100px;
+	transition: background-color 0.3s, transform 0.3s;
 }
 
+.footer-button1:hover {
+	background-color: #5e23cd;
+	transform: scale(1.1);
+}
+
+.footer-button1:active {
+	background-color: #3a0478;
+	transform: scale(0.9);
+}
 
 .footer-button2 {
 	font-family: Inter;
@@ -446,4 +458,87 @@ a {
 	border: 1px solid rgba(228, 216, 204, 1);
 	background-color: inherit;
 	margin-bottom: 86px;
+	transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-button2:hover {
+	background-color: rgba(180, 168, 156, 0.5);
+	transform: scale(1.1);
+}
+
+.footer-button2:active {
+	background-color: rgba(102, 91, 80, 0.5);
+	transform: scale(0.9);
+}
+
+.footer-list2 {
+	gap: 75px;
+	padding-left: 0px;
+}
+
+.footer-list2-item-h2{
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(228, 216, 204, 1);
+	margin-bottom: 48px;
+}
+
+.footer-right-content {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
+
+.footer-house-img{
+	width: 60px;
+	height: 55px;
+}
+
+.footer-house-img::after{
+	content: 'The Smartest Way to Sell Your Home';
+	display: block;
+		font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgba(228, 216, 204, 1);
+}
+/* .footer-h4{
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	color: rgba(228, 216, 204, 1);
+	margin: 0;
+} */
+
+.footer-list-link:hover {
+	color: #333;
+	transition: all 0.7s ease;
+}
+
+.footer-list-item2{
+	gap: 298px;
+	margin: 0;
+}
+
+.footer-list-item2-h3{
+	font-family: Inter;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 11px;
+	color: rgba(228, 216, 204, 1);
+	padding-bottom: 37px;
+	margin: 0;
+}
+
+.line::after{
+		content: '';
+		display: block;
+		width: 1147px;
+		height: 1px;
+		background: rgba(228, 216, 204, 1);
+		margin-bottom: 28px;
 }
